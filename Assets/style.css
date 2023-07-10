@@ -656,3 +656,76 @@ html{
     border-radius: 20px;
     margin-top: 20px;
 }
+
+.testimonials-wrapper{
+    display: flex;
+    flex-flow: row;
+    background-color: #363738;
+    border-radius: 20px;
+    height: 64vh;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.testimonial-body{
+    flex:1.5;
+}
+
+.image{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding:20px;
+}
+
+.image img{
+    border-radius: 10px;
+}
+
+.image-div{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.testimonial-text{
+    display: block;
+    color: #f1f2f3;
+    font-size: 16px;
+    width: 100%;
+    padding: 20px;
+}
+
+.personal-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:20px;
+    padding:20px;
+    height: 30%;
+    align-items: flex-end;
+}
+
+.testimonial-image{
+    border-radius: 75%;
+}
+
+.name-and-bio-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonee-name{
+    color: #f1f2f3;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.testimonee-bio{
+    color: #f1f2f3;
+}
