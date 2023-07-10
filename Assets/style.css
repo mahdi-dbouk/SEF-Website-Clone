@@ -569,14 +569,14 @@ html{
     background-color:#363738;
 }
 
-.talent-section .section-title{
+.talent-section .section-title, .faqs-container .section-title{
     color: white;
 }
 
-.talent-section .first-dot{
+.talent-section .first-dot, .faqs-container .first-dot{
     background-color: white;
 }
-.talent-section .second-dot{
+.talent-section .second-dot, .faqs-container .second-dot{
     background-color: #a5a6a9;
 }
 
@@ -728,4 +728,45 @@ html{
 
 .testimonee-bio{
     color: #f1f2f3;
+}
+
+.faqs-container{
+    background-color: #363738;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.faqs-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.faq{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #232323;
+    padding: 20px;
+    border-radius: 20px;
+    color: #f1f2f3;
+}
+
+.inverted-arrow{
+    font-size: 24px;
+    margin:0;
+    padding:0;
+    transform: rotate(90deg);
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: 18px !important;
+    border-radius: 0 !important; 
 }
